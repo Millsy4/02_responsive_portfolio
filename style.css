@@ -1,3 +1,17 @@
-body {
-    background-image: url('pexels-felix-mittermeier-956999.jpg');
-}
+/*
+Ben Comroe on Stack Overflow
+https://stackoverflow.com/questions/35505071/bottom-border-on-bootstrap-row
+*/
+.row-bordered {
+    position: relative;
+  }
+  
+  .row-bordered:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+  }
