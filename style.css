@@ -41,7 +41,7 @@ where he lists free background images for non-commercial use
 */
 
 #backgroundContainer {
-    background-image: url('pexels-felix-mittermeier-956999.jpg');
+    background-image: url('./images/pexels-felix-mittermeier-956999.jpg');
     padding-top: 90px;
     min-height: calc(100vh - 120px);
   }
