@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caudex&family=Dancing+Script&family=Viga&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Create a Navbar that will show as a hamburger until the screen resolution passes a 'lg' width -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <span class="navbar-brand mb-1 h1" style="background-color: white; color: #595959; font-family: Viga;">Christian Mills</span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -30,7 +31,10 @@
       </ul>
     </nav>
   </nav>
+<!-- Create a container to house my background and allow the information inside to be editted -->
 <main class="container-fluid clearfix pb-5" id="backgroundContainer">
+   <!-- Inside container that holds the rows and columns with the detailed information,
+    created a second container so that it could be moved around within the background container with ease -->
   <article class="container-lg bg-dark float-left" style="max-width: 800px;">
     <section class="row row-bordered pt-2">
       <section class="col-sm-12">
@@ -39,6 +43,7 @@
     </section>
     <section class="row">
       <section class="col-sm-12 pb-3">
+        <!-- Create a form that can have information actually input into it-->
         <form>
           <div class="form-group">
             <label for="getName" style="margin-top: 10px; color: rgba(255,255,255,.5); font-family: Viga;">Name</label>
@@ -67,6 +72,7 @@
       <i class="fab fa-github"></i>
     </a>
   </section>
+  <!-- Create a footer and LinkedIn and GitHub links to it -->
   </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

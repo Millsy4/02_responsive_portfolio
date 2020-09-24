@@ -1,12 +1,14 @@
 /*
 Ben Comroe on Stack Overflow
 https://stackoverflow.com/questions/35505071/bottom-border-on-bootstrap-row
+
+Used to add an underline underneath my header row
 */
 .row-bordered {
     position: relative;
   }
   
-  .row-bordered:after {
+.row-bordered:after {
     content: "";
     display: block;
     border-bottom: 1px solid #ccc;
@@ -16,7 +18,14 @@ https://stackoverflow.com/questions/35505071/bottom-border-on-bootstrap-row
     right: 15px;
   }
 
-  .footer {
+/*
+28 and 43 are used to make the footer stick to the bottom of the screen,
+it essentially calculates the difference between 100% of the viewport for the
+background container and the header and footer to place the footer at the bottom
+of the page
+*/
+
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -26,7 +35,12 @@ https://stackoverflow.com/questions/35505071/bottom-border-on-bootstrap-row
     text-align: center;
   }
 
-  #backgroundContainer {
+/*
+Background image comes from https://www.pexels.com/search/website%20background/
+where he lists free background images for non-commercial use
+*/
+
+#backgroundContainer {
     background-image: url('pexels-felix-mittermeier-956999.jpg');
     padding-top: 90px;
     min-height: calc(100vh - 120px);
