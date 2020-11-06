@@ -11,7 +11,7 @@
 </head>
 <body>
   <!-- Create a Navbar that will show as a hamburger until the screen resolution passes a 'lg' width -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
       <span class="navbar-brand mb-1 h1" style="color: rgba(255,255,255,.5);; font-family: Viga;">Christian Mills</span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,10 +35,10 @@
 <main class="container-fluid clearfix pb-5" id="backgroundContainer">
    <!-- Inside container that holds the rows and columns with the detailed information,
     created a second container so that it could be moved around within the background container with ease -->
-  <article class="container-lg bg-dark float-left" style="max-width: 800px;">
+  <article class="container-lg float-left" style="max-width: 800px; background-image: url(./images/shutterstock_1040283142.jpg); background-size: cover; background-repeat: no-repeat;">
     <section class="row row-bordered pt-2">
       <section class="col-sm-12">
-        <h2 style="color: rgba(255,255,255,.5); font-family: Viga; font-size: 40px;">Contact</h2>
+        <h2 style="color: black; font-family: Viga; font-size: 40px;">Contact</h2>
       </section>
     </section>
     <section class="row">
@@ -46,25 +46,25 @@
         <!-- Create a form that can have information actually input into it-->
         <form>
           <div class="form-group">
-            <label for="getName" style="margin-top: 10px; color: rgba(255,255,255,.5); font-family: Viga;">Name</label>
+            <label for="getName" style="margin-top: 10px; color: black; font-family: Viga;">Name</label>
             <input type="text" class="form-control" id="getName" placeholder="Name" style="font-family: Caudex;">
           </div>
           <div class="form-group">
-            <label for="getEmail" style="color: rgba(255,255,255,.5); font-family: Viga;">Email</label>
+            <label for="getEmail" style="color: black; font-family: Viga;">Email</label>
             <input type="email" class="form-control" id="getEmail" placeholder="emailname@email.com" style="font-family: Caudex;">
           </div>
           <div class="form-group">
-            <label for="getMessage" style="color: rgba(255,255,255,.5); font-family: Viga;">Message</label>
+            <label for="getMessage" style="color: black; font-family: Viga;">Message</label>
             <textarea class="form-control" id="getMessage" rows="3" style="font-family: Caudex;">Enter message here...</textarea>
           </div>
-          <button type="button" class="btn btn-light" style="font-family: Viga;">Submit</button>
+          <button type="button" class="btn" style="background-color: black; color: white; font-family: Viga;">Submit</button>
         </form>
       </section>
     </section>
   </article>
 </main>
 <footer class="page-footer clearfix">
-  <section class="footer-copyright text-center py-3 bg-dark" style="color: rgba(255,255,255,.5); font-family: Viga;"> Christian Mills | 
+  <section class="footer-copyright text-center py-3" style="background-color: black; color: rgba(255,255,255,.5); font-family: Viga;"> Christian Mills | 
     <a href="mailto:chrmills4@gmail.com">chrmills4@gmail.com</a> | 
     <a href="tel:+16204308514">620-430-8514</a> | 
     <a href="./assets/Christian_Resume.pdf">Resume</a>
