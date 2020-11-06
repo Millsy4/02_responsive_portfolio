@@ -10,7 +10,7 @@ Tools I used to complete this include:
 
 - [Google Fonts](https://fonts.google.com/)
 
-The main point of this website was to learn how to effectively use Bootstrap, as well as, how to make your websites responsive.  In the day and age of smart phones it is essential that your web design be able towork well on mobile devices.
+The main point of this website was to learn how to effectively use Bootstrap, as well as, how to make your websites responsive.  In the day and age of smart phones it is essential that your web design be able to work well on mobile devices.
 
 I made this website with full intention of slowly editting it as I learn more stuff throughout the class and making it the best way possible to really see what I can offer to employers.  As of right now there are only placeholders for most content, except the About Me, but the intention is to fill it with stuff I create during this class and beyond.
 
