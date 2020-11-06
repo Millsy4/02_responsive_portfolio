@@ -11,7 +11,7 @@ Used to add an underline underneath my header row
 .row-bordered:after {
     content: "";
     display: block;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid black;
     position: absolute;
     bottom: 0;
     left: 15px;
@@ -41,7 +41,8 @@ where he lists free background images for non-commercial use
 */
 
 #backgroundContainer {
-    background-image: url('./images/pexels-felix-mittermeier-956999.jpg');
+    background-image: url('./images/shutterstock_1432953857.jpg');
     padding-top: 90px;
     min-height: calc(100vh - 120px);
+    background-size: cover;
   }
